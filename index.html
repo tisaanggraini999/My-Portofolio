@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Tisa Anggraini</title>
+    <script>
+        function toggleSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section.style.display === "none") {
+                section.style.display = "block";
+            } else {
+                section.style.display = "none";
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Portofolio Tisa Anggraini</h1>
+
+        <div class="section">
+            <h2 onclick="toggleSection('Electrical/Electronics/Automations')">Electrical/Electronics/Automations</h2>
+            <div id="Electrical/Electronics/Automations" class="section-content">
+                <h3>Eagle</h3>
+                <figure>
+                    <img src="images/Eagle1.jpeg" alt="Eagle Example 1">
+                    <figcaption>Rangkaian driver motor</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Eagle2.jpg" alt="EagleExample 2">
+                    <figcaption>Rangkaian sensor sederhana</figcaption>
+                </figure>
+
+                <h3>Proteus</h3>
+                <figure>
+                    <img src="images/Proteus1.jpeg" alt="Proteus Example 1">
+                    <figcaption>Rangkaian Running led sederhana</figcaption>
+                </figure>
+        
+                <h3>PLC</h3>
+                <figure>
+                    <img src="images/PLC1.jpg" alt="PLC Example 1">
+                    <figcaption>My Descritions</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/PLC2.jpg" alt="PLC Example 2">
+                    <figcaption>My Descritions</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/PLC3.jpg" alt="PLC Example 3">
+                    <figcaption>My Descritions</figcaption>
+                </figure>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 onclick="toggleSection('programming')">Programming</h2>
+            <div id="programming" class="section-content">
+                <h3>Python</h3>
+                <figure>
+                    <img src="python1.jpg" alt="Python Example 1">
+                    <figcaption>Analisis data dengan Pandas</figcaption>
+                </figure>
+                <figure>
+                    <img src="python2.jpg" alt="Python Example 2">
+                    <figcaption>Machine Learning sederhana</figcaption>
+                </figure>
+                <figure>
+                    <img src="python3.jpg" alt="Python Example 3">
+                    <figcaption>Web scraping dengan BeautifulSoup</figcaption>
+                </figure>
+
+                <h3>HTML</h3>
+                <figure>
+                    <img src="images/html1.png" alt="HTML Example 1">
+                    <figcaption>Undangan digital, dibuat dengan menggunakan HTML, CSS, dan JavaScript. Undangan digital ini menggunakan GitHub Pages sebagai hosting sehingga dapat diakses dengan mudah oleh user.</figcaption>
+                </figure>
+                <figure>
+                    <img src="html2.jpg" alt="HTML Example 2">
+                    <figcaption>Formulir kontak dinamis</figcaption>
+                </figure>
+                <figure>
+                    <img src="html3.jpg" alt="HTML Example 3">
+                    <figcaption>Halaman profil pribadi</figcaption>
+                </figure>
+            </div>
+        </div>
+
+               <div class="section">
+            <h2 onclick="toggleSection('microsoftOffice')">Microsoft Office</h2>
+            <div id="microsoftOffice" class="section-content">
+                <h3>Word</h3>
+                <figure>
+                    <img src="word1.jpg" alt="Word Example 1">
+                    <figcaption>Dokumen laporan proyek</figcaption>
+                </figure>
+                <figure>
+                    <img src="word2.jpg" alt="Word Example 2">
+                    <figcaption>Makalah akademik</figcaption>
+                </figure>
+                <figure>
+                    <img src="word3.jpg" alt="Word Example 3">
+                    <figcaption>Format surat resmi</figcaption>
+                </figure>
+            
+                <h3>Excel</h3>
+                <figure>
+                    <img src="excel1.jpg" alt="Excel Example 1">
+                    <figcaption>Analisis data keuangan</figcaption>
+                </figure>
+                <figure>
+                    <img src="excel2.jpg" alt="Excel Example 2">
+                    <figcaption>Laporan penjualan</figcaption>
+                </figure>
+                <figure>
+                    <img src="excel3.jpg" alt="Excel Example 3">
+                    <figcaption>Tabel pivot</figcaption>
+                </figure>
+            
+                <h3>PowerPoint</h3>
+                <figure>
+                    <img src="ppt1.jpg" alt="PowerPoint Example 1">
+                    <figcaption>Presentasi bisnis</figcaption>
+                </figure>
+                <figure>
+                    <img src="ppt2.jpg" alt="PowerPoint Example 2">
+                    <figcaption>Slide edukasi</figcaption>
+                </figure>
+                <figure>
+                    <img src="ppt3.jpg" alt="PowerPoint Example 3">
+                    <figcaption>Infografis interaktif</figcaption>
+                </figure>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

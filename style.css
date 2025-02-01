@@ -1,0 +1,44 @@
+ /* Menambahkan gambar background langsung di CSS */
+ body {
+    background-image: url('images/image.jpg'); /* Ganti dengan lokasi gambar background Anda */
+    background-size: cover; /* Menyesuaikan ukuran gambar dengan ukuran layar */
+    background-position: center; /* Memastikan gambar berada di tengah */
+    background-attachment: fixed; /* Gambar tetap saat scrolling */
+}
+
+/* Menyusun gambar dan deskripsi secara horizontal */
+.section figure {
+    display: flex; /* Menyusun gambar dan deskripsi secara horizontal */
+    align-items: center; /* Menjaga gambar dan deskripsi sejajar vertikal */
+    margin-bottom: 20px;
+}
+
+/* Mengubah ukuran gambar menjadi 6x8 */
+.section figure img {
+    width: 310px; /* Menetapkan lebar gambar (rasio 6:8) */
+    height: 320px; /* Menetapkan tinggi gambar (rasio 6:8) */
+    margin-right: 20px; /* Jarak antara gambar dan deskripsi */
+}
+
+.section figure figcaption {
+    font-size: 14px;
+    max-width: 500px; /* Menetapkan lebar maksimum untuk deskripsi */
+}
+
+/* Menyembunyikan bagian yang di-click */
+.section-content {
+    display: none; /* Menyembunyikan bagian */
+    margin-left: 20px;
+}
+
+.section h2 {
+    cursor: pointer; /* Menambahkan pointer untuk menunjukkan bahwa ini dapat diklik */
+    color: #333;
+}
+
+h1 {
+   text-align: center;
+   color: #e6f4f7;
+   background-color: #0636d3;
+   font: bold;
+}
