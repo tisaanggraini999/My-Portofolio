@@ -1,6 +1,6 @@
  /* Menambahkan gambar background langsung di CSS */
  body {
-    background-image: url('images/image.jpg'); /* Ganti dengan lokasi gambar background Anda */
+    background-image: url('images/image1.jpg'); /* Ganti dengan lokasi gambar background Anda */
     background-size: cover; /* Menyesuaikan ukuran gambar dengan ukuran layar */
     background-position: center; /* Memastikan gambar berada di tengah */
     background-attachment: fixed; /* Gambar tetap saat scrolling */
